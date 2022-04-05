@@ -7,5 +7,5 @@ RUN npm install
 ENV CI=1 
 RUN npx cypress install
 
-EXPOSE 3000
+EXPOSE 4000
 CMD node server.js
